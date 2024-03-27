@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon server.js"
@@ -11,8 +11,13 @@
   "author": "zaid",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "@vinejs/vine": "^1.8.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.11.0"
   }
 }
